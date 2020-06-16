@@ -37,3 +37,16 @@ font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "
 font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
 ```
 [查看更多](https://segmentfault.com/a/1190000006110417)
+
+### 响应式方案
+PC设计图 1920x3840  手机设计图 750x1334
+```
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: .14rem;
+  line-height: 1;
+}
+```
