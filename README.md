@@ -18,7 +18,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); // 向左上方移动自身宽高的一半
 }
 ```
 [查看更多](https://segmentfault.com/a/1190000015095402)
