@@ -39,14 +39,32 @@ font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
 [查看更多](https://segmentfault.com/a/1190000006110417)
 
 ### 响应式方案
-PC设计图 1920x3840  手机设计图 750x1334
+* 手机端 设计图-750x1334 (所以尺寸都用vw单位)
+* PC端   设计图-1920x1080
 ```
+html,
+body {
+  min-width: 1100px;
+  overflow-x: hidden;
+}
+
 html {
-  font-size: 100px;
+  font-size: calc(86px + 14 * (100vw - 1100px) / 820);
 }
 
 body {
   font-size: .14rem;
   line-height: 1;
 }
+
+@media all and (max-width: 1100px) {
+  font-size: 86px;
+}
+
+@media all and (max-width: 767px) {
+  font-size: 14px;
+}
 ```
+
+
+
