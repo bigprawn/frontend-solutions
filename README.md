@@ -12,6 +12,15 @@
   align-items: center;     // 子元素垂直居中
 }
 ```
+* 定位情况下absolute/fixed
+```
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+```
 [查看更多](https://segmentfault.com/a/1190000015095402)
 
 ### 字体问题
