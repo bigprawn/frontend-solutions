@@ -12,7 +12,7 @@
   align-items: center;     // 子元素垂直居中
 }
 ```
-* 定位情况下absolute/fixed
+* absolute/fixed
 ```
 .box {
   position: absolute;
