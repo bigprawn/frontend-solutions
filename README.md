@@ -4,13 +4,13 @@
 如果没有找到问题的解决方案，或者对已有方案有任何意见或补充，可以提交 [Issues](https://github.com/bigprawn/frontend-solutions/issues)
 
 ### 居中问题
-* 行内元素居中
+* 通用方案
 ```
-.box{text-align:center}
-```
-* 块级元素居中
-```
-.box{margin:0 auto}
+.box {
+  display: flex;
+  justify-content: center; // 子元素水平居中
+  align-items: center;     // 子元素垂直居中
+}
 ```
 [查看详情](https://segmentfault.com/a/1190000015095402)
 
