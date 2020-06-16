@@ -12,6 +12,6 @@
   align-items: center;     // 子元素垂直居中
 }
 ```
-[查看详情](https://segmentfault.com/a/1190000015095402)
+[查看更多](https://segmentfault.com/a/1190000015095402)
 
 ### 字体问题
