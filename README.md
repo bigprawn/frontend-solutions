@@ -12,5 +12,6 @@
 ```
 .box{margin:0 auto}
 ```
+[查看详情](https://segmentfault.com/a/1190000015095402)
 
 ### 字体问题
