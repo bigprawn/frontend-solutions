@@ -24,3 +24,16 @@
 [查看更多](https://segmentfault.com/a/1190000015095402)
 
 ### 字体问题
+* 通用方案
+```
+font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+```
+* 中文
+```
+font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", sans-serif;
+```
+* 英文
+```
+font-family: Helvetica, Tahoma, Arial, sans-serif;
+```
+[查看更多](https://segmentfault.com/a/1190000006110417)
