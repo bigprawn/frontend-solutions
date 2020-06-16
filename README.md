@@ -39,8 +39,8 @@ font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
 [查看更多](https://segmentfault.com/a/1190000006110417)
 
 ### 响应式方案
-* 手机端 设计图-750x1334 (所以尺寸都用vw单位)
-* PC端   设计图-1920x1080
+* 手机端 设计图-750x1334 (所有尺寸都用vw单位)
+* PC端 设计图-1920x1080（使用rem单位，PAD端等比缩小显示1100样式）
 ```
 html,
 body {
@@ -65,6 +65,9 @@ body {
   font-size: 14px;
 }
 ```
-
+```
+<!-- PAD端viewport -->
+<meta name="viewport" content="width=1100, user-scalable=no">
+```
 
 
