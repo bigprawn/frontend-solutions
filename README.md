@@ -7,7 +7,7 @@
 * 通用方案
 ```
 .box {
-  display: flex;
+  display: flex;           // 弹性盒子
   justify-content: center; // 子元素水平居中
   align-items: center;     // 子元素垂直居中
 }
