@@ -69,5 +69,7 @@ body {
 <!-- PAD端viewport -->
 <meta name="viewport" content="width=1100, user-scalable=no">
 ```
-
-
+### 有哪些动画动效库
+* [Animate.css](https://github.com/animate-css/animate.css)
+* [Hover.css](https://github.com/IanLunn/Hover)
+* [Waves.css](https://github.com/fians/Waves)
