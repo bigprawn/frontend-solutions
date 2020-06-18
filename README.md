@@ -73,3 +73,4 @@ body {
 * [Animate.css](https://github.com/animate-css/animate.css)
 * [Hover.css](https://github.com/IanLunn/Hover)
 * [Waves.css](https://github.com/fians/Waves)
+* [DynCSS](https://github.com/vzaccaria/DynCSS)
